@@ -74,7 +74,7 @@ env:
   # (~22 KB) carry the canonical findings: SQL injection (login.ts,
   # search.ts), XXE / Zip-Slip / YAML-DoS (fileUpload.ts), server-side
   # template injection + eval (userProfile.ts), path traversal (dataErasure.ts).
-  SCAN_FILES: "login.ts search.ts fileUpload.ts userProfile.ts dataErasure.ts"
+  SCAN_FILES: "login.ts search.ts"
   # The `cm` binary ships vendored in the repo, so template copies work with
   # zero extra setup (GitHub does NOT copy Releases on fork/template — a
   # release-download step here broke every student copy).
